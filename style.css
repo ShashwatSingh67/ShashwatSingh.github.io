@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    font-family: 'JetBrains Mono', monospace;
+    background-color: #0f0f14;
+    color: #e5e7eb;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+h1 {
+    color: #00f5ff;
+    font-size: 2.5rem;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    color: #8b5cf6;
+    margin-bottom: 20px;
+}
+
+.links a {
+    color: #00f5ff;
+    text-decoration: none;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    margin-top: 40px;
+    color: #8b5cf6;
+    border-bottom: 1px solid #2a2a35;
+    padding-bottom: 5px;
+}
+
+.card {
+    background-color: #16161d;
+    padding: 20px;
+    margin-top: 15px;
+    border-left: 3px solid #00f5ff;
+    transition: 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+    border-left: 3px solid #8b5cf6;
+}
+
+.highlight {
+    color: #00f5ff;
+    font-weight: 600;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+footer {
+    margin-top: 60px;
+    text-align: center;
+    color: #6b7280;
+    font-size: 0.85rem;
+}
